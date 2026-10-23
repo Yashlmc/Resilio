@@ -1,0 +1,79 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-A}}The Phenomenon of Prompt Drift}{1}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-B}}The Critical Evaluation Gap}{1}{subsection.1.2}\protected@file@percent }
+\citation{ref1}
+\citation{ref2,ref3,ref9}
+\citation{ref9,ref1}
+\citation{ref9}
+\citation{ref11}
+\citation{ref8}
+\citation{ref5}
+\citation{ref10}
+\citation{ref4}
+\citation{ref6}
+\citation{ref7}
+\citation{ref12}
+\citation{ref9}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}LLM Quantization for Efficient Deployment}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Robustness to Input Perturbations and Prompt Drift}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}Behavioral Stability and Runtime Monitoring}{2}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-D}}Identification of Research Gaps}{2}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}The Resilio Methodology}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Dataset Architecture}{2}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}OOP-based Drift Generation Framework}{2}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Mathematical Validation of Realism}{3}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Metric Formulation (TPS \& BSS)}{3}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Task Performance Score (TPS): The 5-Factor Behavioral Matrix}{3}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Behavioral Stability Score (BSS)}{3}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Stability Threshold and Behavioral Collapse}{3}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}Experimental Setup and Implementation}{3}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Technical Infrastructure and Model Configurations}{4}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}The LLM-as-Judge Evaluation Pipeline}{4}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}TPS and BSS Computation \& Visualization}{4}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Results, Analysis, and Discussion}{4}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}The Quantization Amplification Effect}{4}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}Task-Specific Fragility: Reasoning vs. Classification}{4}{subsection.6.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces All models exhibit progressive degradation with increasing drift severity. INT4 configurations demonstrate an earlier onset and steeper decline trajectory, particularly in reasoning tasks.}}{5}{figure.1}\protected@file@percent }
+\newlabel{fig:modelwise_bss}{{1}{5}{All models exhibit progressive degradation with increasing drift severity. INT4 configurations demonstrate an earlier onset and steeper decline trajectory, particularly in reasoning tasks}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}The Silent Failure Phenomenon and Calibration Loss}{5}{subsection.6.3}\protected@file@percent }
+\newlabel{fig:category_bss}{{2a}{6}{Subfigure 2a}{subfigure.2.1}{}}
+\newlabel{sub@fig:category_bss}{{(a)}{a}{Subfigure 2a\relax }{subfigure.2.1}{}}
+\newlabel{fig:agg_quant_bss}{{2b}{6}{Subfigure 2b}{subfigure.2.2}{}}
+\newlabel{sub@fig:agg_quant_bss}{{(b)}{b}{Subfigure 2b\relax }{subfigure.2.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces (a) Category-wise BSS showing task-dependent robustness differences. (b) Aggregated quantization trends demonstrating a consistent decline in stability with reduced precision.}}{6}{figure.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Category-wise BSS}}}{6}{subfigure.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Aggregated Quantization Impact}}}{6}{subfigure.2.2}\protected@file@percent }
+\newlabel{fig:quant_gap}{{3a}{6}{Subfigure 3a}{subfigure.3.1}{}}
+\newlabel{sub@fig:quant_gap}{{(a)}{a}{Subfigure 3a\relax }{subfigure.3.1}{}}
+\newlabel{fig:bss_significance}{{3b}{6}{Subfigure 3b}{subfigure.3.2}{}}
+\newlabel{sub@fig:bss_significance}{{(b)}{b}{Subfigure 3b\relax }{subfigure.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces (a) Quantization gap analysis highlighting disproportionate stability loss in INT4 models. (b) Statistical validation confirming that degradation trends are significant across drift levels.}}{6}{figure.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Quantization Gap}}}{6}{subfigure.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Statistical Significance}}}{6}{subfigure.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}Discussion: Implications for Deployment}{6}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Deployment Guidelines}{6}{section.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Deployment Decision Matrix}}{6}{table.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-A}}Deployment Decision Matrix}{6}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-B}}Strategic Recommendations for Practitioners}{6}{subsection.7.2}\protected@file@percent }
+\bibcite{ref1}{1}
+\bibcite{ref2}{2}
+\bibcite{ref3}{3}
+\bibcite{ref4}{4}
+\bibcite{ref5}{5}
+\bibcite{ref6}{6}
+\bibcite{ref7}{7}
+\bibcite{ref8}{8}
+\bibcite{ref9}{9}
+\bibcite{ref10}{10}
+\bibcite{ref11}{11}
+\bibcite{ref12}{12}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces 3D interaction between model architecture, quantization level, and drift severity, illustrating the compounded impact of compression and input degradation on behavioral stability.}}{7}{figure.4}\protected@file@percent }
+\newlabel{fig:bss_3d}{{4}{7}{3D interaction between model architecture, quantization level, and drift severity, illustrating the compounded impact of compression and input degradation on behavioral stability}{figure.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Conclusion}{7}{section.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{7}{section*.1}\protected@file@percent }
+\gdef \@abspage@last{7}
